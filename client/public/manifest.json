@@ -1,0 +1,25 @@
+{
+  "short_name": "DirectICS-Portal",
+  "name": "DirectICS Customer Portal",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "64x64 32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo180.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "horizontal_logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://customers.directics.com/",
+  "display": "standalone",
+  "theme_color": "#0f814a",
+  "background_color": "#ffffff"
+}

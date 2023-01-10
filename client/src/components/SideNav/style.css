@@ -1,0 +1,84 @@
+:root {
+    --not-active: rgb(187, 187, 187);
+    --active: #fff!important;
+}
+
+.side-nav-background {
+    background: var(--secondary-color);
+    width: 100vw;
+    box-shadow: -7px 12px 10px 8px var(--secondary-color);
+}
+.side-nav-container {
+    background-color: var(--secondary-color);
+    position: sticky;
+    top: 0;
+    padding: 0px 50px;
+    z-index: 10;
+}
+.side-nav-category {
+    display: flex;
+}
+.navbar-seperator {
+    padding: 12px 12px;
+    color: var(--not-active);
+}
+
+/* -- Header  */
+.side-nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+/* -- Right hand side (name) */
+.right-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.notifications {
+    padding-right: 10px;
+    padding-top: 4px;
+}
+.notifications {
+    color: var(--not-active);
+}
+.notifications:hover {
+    color: var(--active);
+}
+.side-nav-name {
+    color: var(--not-active);
+    font-weight: 500;
+    align-self: center;
+}
+.side-nav-name span:hover {
+    color: var(--active);
+    cursor: pointer;
+}
+/* -- Buttons */
+.side-nav-button {
+    width: fit-content;
+    cursor: pointer;
+    padding: 10px 5px;
+    padding-top: 15px;
+    /* color: rgb(136, 136, 136)!important; */
+    /* color: rgba(255, 255, 255, 0.411)!important; */
+    color: rgba(255, 255, 255, 0.61);
+}
+.side-nav-button span svg,
+.side-nav-button span {
+    font-size: .91rem;
+}
+.active {
+    background: #272e3a;
+    /* background: linear-gradient(0deg, var(--main-link-color), transparent); */
+    color: var(--active);
+}
+.side-nav-button:hover {
+    background: #272e3a;
+    /* background: linear-gradient(0deg, var(--main-link-hover-color), transparent); */
+    color: var(--active);
+    transition: .15s ease-in-out;
+}
+.active:hover {
+    background: #272e3a;
+    /* background: linear-gradient(0deg, var(--main-link-color), transparent); */
+}

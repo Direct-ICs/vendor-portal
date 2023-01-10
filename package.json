@@ -1,0 +1,30 @@
+{
+  "dependencies": {},
+  "name": "vendor-portal",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.x"
+  },
+  "main": "server.js",
+  "devDependencies": {
+    "concurrently": "^7.2.2"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Direct-ICs/vendor-portal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Direct-Components/customer-dashboard/issues"
+  },
+  "homepage": "https://vendors.directics.com",
+  "description": ""
+}

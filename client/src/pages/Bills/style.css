@@ -1,0 +1,17 @@
+#currentSort {
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    width: fit-content;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+#close {
+    font-size: small;
+    align-self: center;
+    color: rgb(117, 117, 117);
+}
+#currentSort:hover {
+    color: red;
+    border-color: red;
+}
